@@ -8,9 +8,7 @@
   display: grid;
   grid-template-rows: 0.25fr 1fr 0.25fr;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-areas: "header header header"
- "main main main"
- "footer footer footer"; }
+  grid-template-areas: "header header header" "main main main" "footer footer footer"; }
   #sobrenosotrosbody #sobrenosotrosheader {
     background-color: #000000;
     grid-area: header; }
@@ -54,7 +52,7 @@
         display: flex;
         text-align: center;
         color: white; }
-    #sobrenosotrosbody #sobrenosotrosfooter {
+  #sobrenosotrosbody #sobrenosotrosfooter {
     background-color: #000000;
     grid-area: footer; }
     #sobrenosotrosbody #sobrenosotrosfooter #p5 {
@@ -67,53 +65,56 @@
   padding: 0;
   box-sizing: border-box; }
 
-#cabecera {
+body header #cabecera {
   height: 5.5vh; }
 
-#imgenvios {
+body header #imgenvios {
   height: 5vh; }
 
-#imgdescuentos {
+body header #imgdescuentos {
   height: 4.5vh; }
 
-#logo {
+body header #logo {
   background-color: black;
   margin: 0;
   padding: 0;
   box-sizing: border-box; }
-  #logo #imglogo {
+  body header #logo #imglogo {
     height: 15vh; }
 
-main {
+body #divisor {
+  height: 20vh; }
+
+body main {
   background-color: white;
   height: 100vh; }
-  main #portada {
+  body main #portada {
     height: 100%;
     width: 100%; }
 
-#mainCalzado {
+body #mainCalzado {
   height: 80vh; }
 
-#mainDeSuperior {
+body #mainDeSuperior {
   height: 195vh; }
 
-#mainInferiores {
+body #mainInferiores {
   height: 75vh; }
 
-#mainAccesorios {
+body #mainAccesorios {
   height: 75vh; }
 
-#destacados {
+body #destacados {
   height: 6vh;
   background-color: white; }
 
-#hot {
+body #hot {
   height: 92vh;
   background-color: #ffffff; }
 
-#logocontactos {
+body #logocontactos {
   height: 10vh;
   background-color: black; }
 
-#red1 {
+body #red1 {
   height: 21vh; }
