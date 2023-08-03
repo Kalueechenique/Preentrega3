@@ -66,13 +66,7 @@
   box-sizing: border-box; }
 
 body header #cabecera {
-  height: 5.5vh; }
-
-body header #imgenvios {
-  height: 5vh; }
-
-body header #imgdescuentos {
-  height: 4.5vh; }
+  height: 3.3vh; }
 
 body header #logo {
   background-color: black;
@@ -81,35 +75,40 @@ body header #logo {
   box-sizing: border-box; }
   body header #logo #imglogo {
     height: 15vh; }
+  body header #logo .navbar.custom-navbar {
+    height: 40px; }
 
 body #divisor {
   height: 20vh; }
 
 body main {
   background-color: white;
-  height: 100vh; }
+  height: auto; }
   body main #portada {
     height: 100%;
     width: 100%; }
 
+body #mainNew {
+  height: auto; }
+
 body #mainCalzado {
-  height: 80vh; }
+  height: auto; }
 
 body #mainDeSuperior {
-  height: 195vh; }
+  height: auto; }
 
 body #mainInferiores {
-  height: 75vh; }
+  height: auto; }
 
 body #mainAccesorios {
-  height: 75vh; }
+  height: auto; }
 
 body #destacados {
-  height: 6vh;
+  height: auto;
   background-color: white; }
 
 body #hot {
-  height: 92vh;
+  height: 120vh;
   background-color: #ffffff; }
 
 body #logocontactos {
