@@ -3,62 +3,10 @@
   padding: 0;
   box-sizing: border-box; }
 
-#sobrenosotrosbody {
-  height: 100vh;
-  display: grid;
-  grid-template-rows: 0.25fr 1fr 0.25fr;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-areas: "header header header" "main main main" "footer footer footer"; }
-  #sobrenosotrosbody #sobrenosotrosheader {
-    background-color: #000000;
-    grid-area: header; }
-    #sobrenosotrosbody #sobrenosotrosheader #h2sobrenosotros {
-      display: flex;
-      justify-content: center;
-      color: white; }
-    #sobrenosotrosbody #sobrenosotrosheader #p1 {
-      display: flex;
-      justify-content: center;
-      color: white; }
-    #sobrenosotrosbody #sobrenosotrosheader #p2 {
-      display: flex;
-      text-align: center;
-      color: white; }
-  #sobrenosotrosbody #sobrenosotrosmain {
-    background-color: aqua;
-    height: auto;
-    grid-area: main;
-    display: grid;
-    grid-template-columns: 0.5fr 1fr 0.5fr;
-    grid-template-areas: "sect1 sect2 sect3"; }
-    #sobrenosotrosbody #sobrenosotrosmain #sobrenosotrossect1 {
-      background-color: black;
-      grid-area: sect1; }
-      #sobrenosotrosbody #sobrenosotrosmain #sobrenosotrossect1 #p3 {
-        display: flex;
-        text-align: center;
-        color: white; }
-    #sobrenosotrosbody #sobrenosotrosmain #sobrenosotrossect2 {
-      background-color: black;
-      grid-area: sect2; }
-      #sobrenosotrosbody #sobrenosotrosmain #sobrenosotrossect2 #nosotrosimg {
-        height: 57vh;
-        display: flex;
-        text-align: center; }
-    #sobrenosotrosbody #sobrenosotrosmain #sobrenosotrossect3 {
-      background-color: black;
-      grid-area: sect3; }
-      #sobrenosotrosbody #sobrenosotrosmain #sobrenosotrossect3 #p4 {
-        display: flex;
-        text-align: center;
-        color: white; }
-  #sobrenosotrosbody #sobrenosotrosfooter {
-    background-color: #000000;
-    grid-area: footer; }
-    #sobrenosotrosbody #sobrenosotrosfooter #p5 {
-      display: flex;
-      text-align: center;
-      color: white; }
+#nosotrosimg {
+  height: 50vh;
+  display: flex;
+  text-align: center; }
 
 * {
   margin: 0;
@@ -66,10 +14,10 @@
   box-sizing: border-box; }
 
 body header #cabecera {
-  height: 3.3vh; }
+  height: 3.7vh; }
 
 body header #logo {
-  background-color: black;
+  background-color: #f8f8f8;
   margin: 0;
   padding: 0;
   box-sizing: border-box; }
@@ -79,7 +27,7 @@ body header #logo {
     height: 40px; }
 
 body #divisor {
-  height: 20vh; }
+  height: 18vh; }
 
 body main {
   background-color: white;
@@ -108,7 +56,7 @@ body #destacados {
   background-color: white; }
 
 body #hot {
-  height: 120vh;
+  height: auto;
   background-color: #ffffff; }
 
 body #logocontactos {
